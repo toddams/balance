@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balance", "Balance\Balance.csproj", "{53861CE5-FBA1-4FBE-A492-D854D0291D9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balance.Transport.Abstractions", "Balance.Transport.Abstractions\Balance.Transport.Abstractions.csproj", "{162A6182-47AB-49B3-9366-C9B842238ADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balance.Connection.Abstractions", "Balance.Connection.Abstractions\Balance.Connection.Abstractions.csproj", "{A3378A0F-1B8F-4DB9-8B29-1531D673048F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balance.Transport.Sockets", "Balance.Transport.Sockets\Balance.Transport.Sockets.csproj", "{CE36B67A-D394-4213-B379-F14872F910A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balance.Shared", "Balance.Shared\Balance.Shared.csproj", "{97385B8C-894D-4DB8-8298-266CEED14B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banace.Hosting.Abstractions", "Banace.Hosting.Abstractions\Banace.Hosting.Abstractions.csproj", "{E1CD3DC7-DF88-4836-805C-574931CD31CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{53861CE5-FBA1-4FBE-A492-D854D0291D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53861CE5-FBA1-4FBE-A492-D854D0291D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53861CE5-FBA1-4FBE-A492-D854D0291D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162A6182-47AB-49B3-9366-C9B842238ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162A6182-47AB-49B3-9366-C9B842238ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162A6182-47AB-49B3-9366-C9B842238ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162A6182-47AB-49B3-9366-C9B842238ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3378A0F-1B8F-4DB9-8B29-1531D673048F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3378A0F-1B8F-4DB9-8B29-1531D673048F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3378A0F-1B8F-4DB9-8B29-1531D673048F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3378A0F-1B8F-4DB9-8B29-1531D673048F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE36B67A-D394-4213-B379-F14872F910A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE36B67A-D394-4213-B379-F14872F910A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE36B67A-D394-4213-B379-F14872F910A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE36B67A-D394-4213-B379-F14872F910A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97385B8C-894D-4DB8-8298-266CEED14B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97385B8C-894D-4DB8-8298-266CEED14B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97385B8C-894D-4DB8-8298-266CEED14B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97385B8C-894D-4DB8-8298-266CEED14B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CD3DC7-DF88-4836-805C-574931CD31CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CD3DC7-DF88-4836-805C-574931CD31CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CD3DC7-DF88-4836-805C-574931CD31CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CD3DC7-DF88-4836-805C-574931CD31CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
